@@ -1,0 +1,21 @@
+{
+  "_comment": [
+    "Copy this to data/profile.json to pre-fill a LOCAL copy of the app with your own figures.",
+    "data/profile.json is listed in .gitignore, so your date of birth, height and weight are never",
+    "committed or published. On a hosted copy (GitHub Pages) the file is simply absent and the app",
+    "asks for these once on the device, storing them in that browser only."
+  ],
+  "sex": "male",
+  "dob": "1990-01-01",
+  "heightIn": 68,
+  "startWeightLb": 180,
+  "startDate": "2026-09-06",
+  "activity": 1.375,
+  "deficitKcal": 500,
+  "eatFrom": "12:00",
+  "eatTo": "20:00",
+  "wake": "06:30",
+  "bed": "22:30",
+  "planStart": "2026-09-07",
+  "theme": "auto"
+}

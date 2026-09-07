@@ -1,0 +1,136 @@
+{
+ "name": "12-week home strength and aerobic base",
+ "equipment": "One pair of adjustable dumbbells, a mat, a sturdy chair or bench, and somewhere to walk or run.",
+ "builtOn": {
+  "aerobic": "Physical Activity Guidelines for Americans, 2nd edition: 150–300 minutes a week of moderate-intensity aerobic activity (or 75–150 vigorous, or a mix). The block below starts at the bottom of that range and finishes at the top.",
+  "strength": "Physical Activity Guidelines: muscle-strengthening on 2 or more days a week covering all major muscle groups. ACSM's 2026 resistance-training position stand: train every major muscle group at least twice a week; about 10 sets per muscle group per week for size; 2–3 sets at roughly 80% of 1RM when strength is the goal; bodyweight and home equipment work.",
+  "sources": ["pag2", "cdcAdultPA", "acsm2026", "ahaCrf"]
+ },
+ "intensity": {
+  "note": "Use the talk test rather than a formula. CDC defines the intensities this way, and it needs no heart-rate strap.",
+  "moderate": "You can talk but not sing. Breathing is up, you could keep going for an hour.",
+  "vigorous": "You can only get a few words out before you need a breath.",
+  "strengthEffort": "Stop each set with 1–2 reps still in the tank. You do not need to train to failure — ACSM's 2026 review found it makes no consistent difference for a healthy adult."
+ },
+ "phases": [
+  {"weeks": "1–4", "aerobicMinutes": 150, "strengthDays": 3, "focus": "Learn the movements, build the habit. Loads stay light enough that form never breaks down.", "setsPerExercise": 2},
+  {"weeks": "5–8", "aerobicMinutes": 210, "strengthDays": 3, "focus": "Add a third set to the main lifts and one interval session a week. This is where strength starts moving.", "setsPerExercise": 3},
+  {"weeks": "9–12", "aerobicMinutes": 300, "strengthDays": 3, "focus": "Top of the guideline range for aerobic work, and the main lifts get genuinely heavy for 6–8 reps.", "setsPerExercise": 3}
+ ],
+ "progression": [
+  "Double progression: stay at a weight until you can hit the top of the rep range on every set with 1–2 reps left over, then add load and drop back to the bottom of the range.",
+  "Dumbbell jumps are usually 2.5–5 lb per hand. If the jump is too big, add a rep per set for a week instead.",
+  "If a session feels terrible, cut the sets in half rather than skipping it. A short session keeps the habit; a skipped one starts a gap.",
+  "Every fourth week, keep the sets but drop the loads about 10%. You will come back stronger the week after."
+ ],
+ "weeklyTemplate": [
+  {"day": "Monday", "session": "A", "type": "strength", "minutes": 45},
+  {"day": "Tuesday", "session": "Z2", "type": "aerobic", "minutes": 40},
+  {"day": "Wednesday", "session": "B", "type": "strength", "minutes": 45},
+  {"day": "Thursday", "session": "Z2", "type": "aerobic", "minutes": 40, "extra": "MOB"},
+  {"day": "Friday", "session": "C", "type": "strength", "minutes": 45},
+  {"day": "Saturday", "session": "LONG", "type": "aerobic", "minutes": 60, "note": "From week 5 this becomes the interval session every other Saturday."},
+  {"day": "Sunday", "session": "MOB", "type": "mobility", "minutes": 25, "extra": "WALK"}
+ ],
+ "sessions": {
+  "A": {
+   "name": "Strength A — squat, press, row",
+   "warmup": "5 minutes brisk walking on the spot, then 10 bodyweight squats, 10 arm circles each way, 10 hip hinges, 5 push-ups.",
+   "exercises": [
+    {"name": "Goblet squat", "sets": "2–3", "reps": "8–12", "targets": "Quads, glutes, core", "cue": "One dumbbell at the chest, elbows in, sit between the heels, knees track over the toes."},
+    {"name": "Dumbbell floor press", "sets": "2–3", "reps": "8–12", "targets": "Chest, front shoulders, triceps", "cue": "Lie on the mat, elbows at about 45°, press until the dumbbells nearly touch."},
+    {"name": "One-arm dumbbell row", "sets": "2–3", "reps": "8–12 each side", "targets": "Lats, mid-back, biceps", "cue": "Hand and knee on the chair, back flat, pull the dumbbell to the hip, no twisting."},
+    {"name": "Dumbbell Romanian deadlift", "sets": "2–3", "reps": "8–12", "targets": "Hamstrings, glutes, lower back", "cue": "Push the hips back, dumbbells graze the thighs, stop when the hamstrings tighten."},
+    {"name": "Standing overhead press", "sets": "2", "reps": "8–12", "targets": "Shoulders, triceps, core", "cue": "Ribs down, press straight up, do not lean back."},
+    {"name": "Plank", "sets": "2", "reps": "30–60 seconds", "targets": "Core", "cue": "Squeeze the glutes; the hips should not sag or spike."}
+   ]
+  },
+  "B": {
+   "name": "Strength B — hinge, pull, single leg",
+   "warmup": "5 minutes easy walking, 10 glute bridges, 10 bodyweight split squats each side, 10 band or bodyweight rows.",
+   "exercises": [
+    {"name": "Dumbbell split squat", "sets": "2–3", "reps": "8–12 each leg", "targets": "Quads, glutes, balance", "cue": "Back knee drops straight down, front shin near vertical, hold the chair for balance early on."},
+    {"name": "Dumbbell hip thrust or glute bridge", "sets": "2–3", "reps": "10–15", "targets": "Glutes, hamstrings", "cue": "Drive through the heels, finish with a hard glute squeeze, ribs stay down."},
+    {"name": "Push-up (or incline push-up on the chair)", "sets": "2–3", "reps": "8–15", "targets": "Chest, shoulders, triceps, core", "cue": "Body in one line, elbows back at 45°, full range."},
+    {"name": "Dumbbell bent-over row, both arms", "sets": "2–3", "reps": "8–12", "targets": "Upper back, lats, biceps", "cue": "Hinge to about 45°, pull to the belly, control the way down."},
+    {"name": "Lateral raise", "sets": "2", "reps": "12–15", "targets": "Side shoulders", "cue": "Light weight, lead with the elbows, stop at shoulder height."},
+    {"name": "Dead bug", "sets": "2", "reps": "8–10 each side", "targets": "Deep core", "cue": "Lower back stays flat on the mat the whole time."}
+   ]
+  },
+  "C": {
+   "name": "Strength C — full body, carries and posterior chain",
+   "warmup": "5 minutes easy walking, 10 hip hinges, 10 shoulder dislocates with a towel, 10 bodyweight squats.",
+   "exercises": [
+    {"name": "Dumbbell deadlift", "sets": "2–3", "reps": "6–10", "targets": "Whole posterior chain", "cue": "Dumbbells beside the feet, flat back, stand up by pushing the floor away."},
+    {"name": "Dumbbell step-up", "sets": "2–3", "reps": "8–10 each leg", "targets": "Quads, glutes, balance", "cue": "Knee-height step, drive through the top foot, lower slowly instead of dropping."},
+    {"name": "Chest-supported or three-point row", "sets": "2–3", "reps": "10–12", "targets": "Mid-back, rear shoulders", "cue": "Pull with the elbow, pause a beat at the top."},
+    {"name": "Dumbbell overhead press, seated", "sets": "2–3", "reps": "8–12", "targets": "Shoulders, triceps", "cue": "Back against the chair, press without arching."},
+    {"name": "Farmer carry", "sets": "3", "reps": "30–40 metres", "targets": "Grip, core, whole body", "cue": "Heavy but walkable. Grip strength tracks with healthy ageing — this is the cheapest way to train it."},
+    {"name": "Side plank", "sets": "2", "reps": "20–40 seconds each side", "targets": "Obliques, hips", "cue": "Stack the shoulders and hips, lift the bottom hip high."},
+    {"name": "Calf raise", "sets": "2", "reps": "15–20", "targets": "Calves, ankles", "cue": "Full stretch at the bottom, pause at the top."}
+   ]
+  },
+  "Z2": {
+   "name": "Zone 2 — steady aerobic",
+   "howLong": "40 minutes, or split into two 20-minute walks if the day is tight. The guidelines are explicit that activity can be accumulated in short bouts.",
+   "how": "Brisk walk, easy jog, cycle, or stairs. Hold the talk test: you can talk but not sing. If you are gasping, slow down — this session is supposed to feel sustainable.",
+   "why": "This is the volume that builds cardiorespiratory fitness, and fitness predicts mortality more strongly than smoking, blood pressure or cholesterol do (AHA scientific statement). It is also the least injurious way to add weekly minutes."
+  },
+  "LONG": {
+   "name": "Long aerobic session",
+   "howLong": "60 minutes at moderate effort, ideally outdoors.",
+   "how": "Same talk-test effort as Zone 2, just longer. Hills are fine — let the effort, not the pace, stay steady.",
+   "why": "One longer session a week does a disproportionate amount for aerobic base and for the habit of being outside."
+  },
+  "INT": {
+   "name": "Intervals (from week 5, every other Saturday)",
+   "howLong": "10-minute easy warm-up, then 6–8 × 1 minute hard with 2 minutes easy, then 10 minutes easy.",
+   "how": "Hard means vigorous by the talk test — a few words only. Not a sprint; you should be able to repeat the last interval as strongly as the first.",
+   "why": "Vigorous minutes count double toward the weekly guideline target, and intervals raise peak aerobic capacity faster than steady work alone.",
+   "caution": "Add intervals only after four weeks of steady work, and skip them if anything hurts."
+  },
+  "MOB": {
+   "name": "Mobility and recovery",
+   "howLong": "20–25 minutes",
+   "blocks": [
+    "Hip flexor stretch, 45 seconds each side",
+    "90/90 hip rotations, 8 each way",
+    "Hamstring stretch on the floor, 45 seconds each side",
+    "Thoracic rotations on all fours, 8 each side",
+    "Ankle dorsiflexion against a wall, 10 each side",
+    "Deep squat hold, 3 × 30 seconds",
+    "Shoulder dislocates with a towel, 10 slow",
+    "Cat–cow and child's pose, 1 minute each",
+    "Nose breathing, 5 minutes: 4 seconds in, 6 out"
+   ],
+   "why": "Range of motion and single-leg balance are what keep training possible in your fifties and sixties. Twenty-five minutes on a Sunday protects the other six days."
+  },
+  "WALK": {
+   "name": "Easy walk",
+   "howLong": "30 minutes, conversational",
+   "why": "Not a workout — a way to keep the weekly minutes up without adding fatigue."
+  }
+ },
+ "fastedTraining": {
+  "note": "Your strength sessions fall outside the eating window if you train in the morning. Two workable options:",
+  "options": [
+   "Train late afternoon, around 17:00–18:00, and eat dinner after. This is the easier option while you are learning the lifts.",
+   "Train fasted in the morning and break the fast at noon with the day's first meal. Expect slightly lower performance in the first fortnight. Stop the session if you feel light-headed."
+  ]
+ },
+ "fitnessTests": {
+  "note": "Repeat these every 4 weeks. They are trend markers, not diagnostics.",
+  "tests": [
+   {"name": "1-mile walk or jog time trial", "how": "Same route every time, hardest sustainable effort, record the time.", "why": "The cheapest proxy for cardiorespiratory fitness. AHA recommends fitness be estimated at least yearly; four-weekly tells you whether the plan is working."},
+   {"name": "Resting heart rate", "how": "Measured before you get out of bed, same time each morning.", "why": "A falling resting heart rate over months is one of the clearest signs aerobic training is taking hold."},
+   {"name": "Push-ups to technical failure", "how": "Full range, no sagging hips. Stop when form breaks.", "why": "Upper-body strength-endurance trend."},
+   {"name": "Farmer carry distance at a fixed weight", "how": "Same dumbbells each time, walk until the grip goes.", "why": "Grip strength is a well-studied marker of overall strength and healthy ageing."},
+   {"name": "Deep squat hold", "how": "How long you can hold the bottom of a bodyweight squat, heels down.", "why": "Mobility trend for hips and ankles."}
+  ]
+ },
+ "safety": [
+  "New load, new pain: stop the set. Sharp or joint pain is not something to push through.",
+  "Chest pain, unusual breathlessness, dizziness or an irregular heartbeat during exercise means stop and get medical advice before the next session.",
+  "If you have not exercised regularly in years, the first two weeks should feel almost too easy. That is the point."
+ ]
+}

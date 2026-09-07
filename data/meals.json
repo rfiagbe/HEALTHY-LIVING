@@ -1,0 +1,1455 @@
+{
+ "note": "Portions are in grams so that every nutrition figure can be computed from data/foods.json (USDA FoodData Central). Household equivalents sit next to each item. Season with herbs, chillies, garlic, ginger and a measured amount of salt — the Dietary Guidelines explicitly allow flavouring with salt, spices and herbs, and the day's sodium budget already includes about 1/2 tsp of salt for cooking.",
+ "meals": {
+  "L1": {
+   "slot": "lunch",
+   "name": "Yogurt, oat and berry power bowl",
+   "style": "simple",
+   "minutes": 5,
+   "batch": "Boil a dozen eggs on Sunday; they keep a week in the fridge.",
+   "items": [
+    {
+     "food": "yogurt_greek_nonfat",
+     "g": 160,
+     "measure": "1 generous cup"
+    },
+    {
+     "food": "oats",
+     "g": 50,
+     "measure": "1/2 cup dry, soaked overnight or stirred in raw"
+    },
+    {
+     "food": "blueberries",
+     "g": 100,
+     "measure": "2/3 cup"
+    },
+    {
+     "food": "walnuts",
+     "g": 25,
+     "measure": "about 12 halves"
+    },
+    {
+     "food": "chia",
+     "g": 12,
+     "measure": "1 tbsp"
+    },
+    {
+     "food": "egg",
+     "g": 100,
+     "measure": "2 hard-boiled eggs"
+    },
+    {
+     "food": "cinnamon",
+     "g": 2.6,
+     "measure": "1 tsp"
+    }
+   ],
+   "how": "Stir oats and chia into the yogurt the night before. Top with berries and walnuts; eat the eggs alongside."
+  },
+  "L2": {
+   "slot": "lunch",
+   "name": "Chicken and quinoa Mediterranean bowl",
+   "style": "mediterranean",
+   "minutes": 15,
+   "batch": "Grill 700 g of chicken and cook 3 cups of quinoa at the weekend; this bowl then assembles in 3 minutes.",
+   "items": [
+    {
+     "food": "chicken_breast",
+     "g": 110,
+     "measure": "5 oz cooked"
+    },
+    {
+     "food": "quinoa",
+     "g": 155,
+     "measure": "1 cup cooked"
+    },
+    {
+     "food": "chickpeas",
+     "g": 90,
+     "measure": "1/2 cup cooked"
+    },
+    {
+     "food": "romaine",
+     "g": 90,
+     "measure": "2 cups"
+    },
+    {
+     "food": "tomatoes",
+     "g": 100,
+     "measure": "1 small, chopped"
+    },
+    {
+     "food": "cucumber",
+     "g": 80,
+     "measure": "1/2 cup sliced"
+    },
+    {
+     "food": "feta",
+     "g": 28,
+     "measure": "1 oz crumbled"
+    },
+    {
+     "food": "olive_oil",
+     "g": 9,
+     "measure": "2 tsp"
+    },
+    {
+     "food": "lemon_juice",
+     "g": 15,
+     "measure": "1 tbsp"
+    },
+    {
+     "food": "orange",
+     "g": 140,
+     "measure": "1 large, alongside"
+    }
+   ],
+   "how": "Toss the vegetables and chickpeas with oil and lemon, pile on quinoa, top with sliced chicken and feta."
+  },
+  "L3": {
+   "slot": "lunch",
+   "name": "Grilled tilapia with tomato rice, cabbage and spinach",
+   "style": "west-african",
+   "minutes": 25,
+   "batch": "Cook the tomato base (paste, onion, pepper, chilli) in one big pot — it is the base for L3, D1 and D10.",
+   "items": [
+    {
+     "food": "tilapia",
+     "g": 100,
+     "measure": "1 fillet, about 5 oz cooked"
+    },
+    {
+     "food": "brown_rice",
+     "g": 200,
+     "measure": "1 cup cooked"
+    },
+    {
+     "food": "tomato_paste",
+     "g": 30,
+     "measure": "2 tbsp"
+    },
+    {
+     "food": "onion",
+     "g": 60,
+     "measure": "1/2 medium"
+    },
+    {
+     "food": "bell_pepper",
+     "g": 80,
+     "measure": "1/2 large"
+    },
+    {
+     "food": "cabbage",
+     "g": 100,
+     "measure": "3/4 cup cooked"
+    },
+    {
+     "food": "spinach_cooked",
+     "g": 90,
+     "measure": "1/2 cup cooked"
+    },
+    {
+     "food": "olive_oil",
+     "g": 9,
+     "measure": "2 tsp"
+    },
+    {
+     "food": "chili_pepper",
+     "g": 5,
+     "measure": "to taste"
+    },
+    {
+     "food": "papaya",
+     "g": 145,
+     "measure": "1 cup cubes, after the meal"
+    }
+   ],
+   "how": "Sear the fish in a hot pan with a little oil. Stir the tomato base through the rice; wilt cabbage and spinach in the same pan."
+  },
+  "L4": {
+   "slot": "lunch",
+   "name": "Black bean and sweet potato bowl",
+   "style": "simple",
+   "minutes": 10,
+   "batch": "Roast 1.5 kg of sweet potato and simmer a big pot of black beans on Sunday.",
+   "items": [
+    {
+     "food": "black_beans",
+     "g": 150,
+     "measure": "1 cup cooked"
+    },
+    {
+     "food": "egg",
+     "g": 100,
+     "measure": "2 eggs, fried or boiled"
+    },
+    {
+     "food": "sweet_potato",
+     "g": 200,
+     "measure": "1 cup baked"
+    },
+    {
+     "food": "kale_cooked",
+     "g": 130,
+     "measure": "1 cup cooked"
+    },
+    {
+     "food": "avocado",
+     "g": 50,
+     "measure": "1/4 avocado"
+    },
+    {
+     "food": "tomatoes",
+     "g": 80,
+     "measure": "1/2 cup, chopped with chilli as fresh salsa"
+    },
+    {
+     "food": "corn_tortilla",
+     "g": 26,
+     "measure": "1 tortilla, warmed"
+    },
+    {
+     "food": "olive_oil",
+     "g": 4.5,
+     "measure": "1 tsp"
+    },
+    {
+     "food": "mango",
+     "g": 120,
+     "measure": "1 cup pieces"
+    }
+   ],
+   "how": "Warm beans and sweet potato, sauté kale in the oil, top with avocado and chopped tomato, scoop with tortillas."
+  },
+  "L5": {
+   "slot": "lunch",
+   "name": "Tuna and bean salad with whole-grain toast",
+   "style": "mediterranean",
+   "minutes": 7,
+   "batch": "No cooking. Keep canned tuna and beans in the cupboard for the day nothing is prepped.",
+   "items": [
+    {
+     "food": "tuna_canned",
+     "g": 85,
+     "measure": "1 can, drained"
+    },
+    {
+     "food": "kidney_beans",
+     "g": 130,
+     "measure": "3/4 cup cooked"
+    },
+    {
+     "food": "romaine",
+     "g": 90,
+     "measure": "2 cups"
+    },
+    {
+     "food": "tomatoes",
+     "g": 100,
+     "measure": "1 small"
+    },
+    {
+     "food": "onion",
+     "g": 30,
+     "measure": "2 tbsp diced"
+    },
+    {
+     "food": "ww_bread",
+     "g": 64,
+     "measure": "2 slices, toasted"
+    },
+    {
+     "food": "olive_oil",
+     "g": 9,
+     "measure": "2 tsp"
+    },
+    {
+     "food": "lemon_juice",
+     "g": 15,
+     "measure": "1 tbsp"
+    },
+    {
+     "food": "grapes",
+     "g": 150,
+     "measure": "1 cup"
+    }
+   ],
+   "how": "Fork everything together, season, and eat with the toast."
+  },
+  "L6": {
+   "slot": "lunch",
+   "name": "Rice and beans with egg and collards",
+   "style": "west-african",
+   "minutes": 15,
+   "batch": "Cook black-eyed peas and brown rice together in one pot; portion into 4 containers.",
+   "items": [
+    {
+     "food": "brown_rice",
+     "g": 120,
+     "measure": "3/4 cup cooked"
+    },
+    {
+     "food": "black_eyed_peas",
+     "g": 150,
+     "measure": "1 cup cooked"
+    },
+    {
+     "food": "egg",
+     "g": 100,
+     "measure": "2 eggs, boiled or fried in 1 tsp oil"
+    },
+    {
+     "food": "collards",
+     "g": 130,
+     "measure": "1 cup cooked"
+    },
+    {
+     "food": "tomatoes",
+     "g": 80,
+     "measure": "1/2 cup chopped"
+    },
+    {
+     "food": "olive_oil",
+     "g": 9,
+     "measure": "2 tsp"
+    },
+    {
+     "food": "chili_pepper",
+     "g": 5,
+     "measure": "to taste"
+    },
+    {
+     "food": "pineapple",
+     "g": 140,
+     "measure": "1 cup chunks"
+    }
+   ],
+   "how": "Reheat rice and peas, wilt the collards with tomato and chilli in the oil, add the eggs on top."
+  },
+  "L7": {
+   "slot": "lunch",
+   "name": "Turkey and chickpea wrap plate",
+   "style": "simple",
+   "minutes": 10,
+   "batch": "Blend cooked chickpeas with lemon, garlic and a little oil for a week's worth of spread.",
+   "items": [
+    {
+     "food": "turkey_breast",
+     "g": 90,
+     "measure": "4 oz cooked, sliced"
+    },
+    {
+     "food": "chickpeas",
+     "g": 140,
+     "measure": "1 cup, mashed as a spread"
+    },
+    {
+     "food": "corn_tortilla",
+     "g": 52,
+     "measure": "2 tortillas"
+    },
+    {
+     "food": "romaine",
+     "g": 60,
+     "measure": "1 1/2 cups"
+    },
+    {
+     "food": "bell_pepper",
+     "g": 80,
+     "measure": "1/2 large, sliced"
+    },
+    {
+     "food": "cucumber",
+     "g": 60,
+     "measure": "1/3 cup sliced"
+    },
+    {
+     "food": "olive_oil",
+     "g": 9,
+     "measure": "2 tsp into the spread"
+    },
+    {
+     "food": "apple",
+     "g": 180,
+     "measure": "1 medium"
+    }
+   ],
+   "how": "Spread the mashed chickpeas on warm tortillas, layer turkey and vegetables, roll and eat."
+  },
+  "L8": {
+   "slot": "lunch",
+   "name": "Salmon and barley bowl with asparagus",
+   "style": "mediterranean",
+   "minutes": 20,
+   "batch": "Barley reheats well — cook 3 cups at once.",
+   "items": [
+    {
+     "food": "salmon",
+     "g": 95,
+     "measure": "4 oz cooked"
+    },
+    {
+     "food": "barley",
+     "g": 160,
+     "measure": "1 cup cooked"
+    },
+    {
+     "food": "white_beans",
+     "g": 90,
+     "measure": "1/2 cup cooked"
+    },
+    {
+     "food": "asparagus",
+     "g": 120,
+     "measure": "1 cup cooked"
+    },
+    {
+     "food": "tomatoes",
+     "g": 80,
+     "measure": "1/2 cup"
+    },
+    {
+     "food": "olive_oil",
+     "g": 9,
+     "measure": "2 tsp"
+    },
+    {
+     "food": "lemon_juice",
+     "g": 15,
+     "measure": "1 tbsp"
+    },
+    {
+     "food": "blueberries",
+     "g": 148,
+     "measure": "1 cup"
+    }
+   ],
+   "how": "Roast or pan-sear the salmon, steam the asparagus, dress barley and beans with oil and lemon."
+  },
+  "L9": {
+   "slot": "lunch",
+   "name": "Cottage cheese, egg and fruit plate",
+   "style": "simple",
+   "minutes": 5,
+   "batch": "Zero cooking beyond the boiled eggs.",
+   "items": [
+    {
+     "food": "cottage_cheese",
+     "g": 160,
+     "measure": "1 cup"
+    },
+    {
+     "food": "egg",
+     "g": 100,
+     "measure": "2 hard-boiled eggs"
+    },
+    {
+     "food": "pineapple",
+     "g": 150,
+     "measure": "1 cup chunks"
+    },
+    {
+     "food": "almonds",
+     "g": 28,
+     "measure": "16 almonds"
+    },
+    {
+     "food": "ww_bread",
+     "g": 32,
+     "measure": "2 slices, toasted"
+    }
+   ],
+   "how": "Plate it up. Black pepper on the cottage cheese, cinnamon on the fruit."
+  },
+  "L10": {
+   "slot": "lunch",
+   "name": "Groundnut stew with chicken and millet",
+   "style": "west-african",
+   "minutes": 30,
+   "batch": "Make a double pot of groundnut stew; it freezes well and reheats better than it started.",
+   "items": [
+    {
+     "food": "chicken_breast",
+     "g": 100,
+     "measure": "4 oz cooked"
+    },
+    {
+     "food": "peanut_butter",
+     "g": 32,
+     "measure": "2 tbsp"
+    },
+    {
+     "food": "tomato_paste",
+     "g": 40,
+     "measure": "2 1/2 tbsp"
+    },
+    {
+     "food": "onion",
+     "g": 60,
+     "measure": "1/2 medium"
+    },
+    {
+     "food": "millet",
+     "g": 140,
+     "measure": "3/4 cup cooked"
+    },
+    {
+     "food": "spinach_cooked",
+     "g": 90,
+     "measure": "1/2 cup cooked"
+    },
+    {
+     "food": "black_eyed_peas",
+     "g": 90,
+     "measure": "1/2 cup cooked, stirred into the stew"
+    },
+    {
+     "food": "olive_oil",
+     "g": 4.5,
+     "measure": "1 tsp"
+    },
+    {
+     "food": "chili_pepper",
+     "g": 5,
+     "measure": "to taste"
+    },
+    {
+     "food": "ginger_ground",
+     "g": 2,
+     "measure": "1 tsp"
+    },
+    {
+     "food": "papaya",
+     "g": 120,
+     "measure": "1 cup cubes"
+    }
+   ],
+   "how": "Soften onion in the oil, add tomato paste, peanut butter and water to a loose sauce, simmer the chicken in it, stir in peas and spinach. Serve over millet."
+  },
+  "L11": {
+   "slot": "lunch",
+   "name": "Shrimp and okra stew with yam and millet",
+   "style": "west-african",
+   "minutes": 25,
+   "batch": "Frozen shrimp and frozen okra work fine here and keep the bulk shop cheap.",
+   "items": [
+    {
+     "food": "shrimp",
+     "g": 110,
+     "measure": "5 oz cooked"
+    },
+    {
+     "food": "okra",
+     "g": 160,
+     "measure": "1 cup cooked"
+    },
+    {
+     "food": "yam",
+     "g": 150,
+     "measure": "1 cup boiled"
+    },
+    {
+     "food": "millet",
+     "g": 140,
+     "measure": "3/4 cup cooked"
+    },
+    {
+     "food": "tomatoes",
+     "g": 100,
+     "measure": "1 small"
+    },
+    {
+     "food": "onion",
+     "g": 50,
+     "measure": "1/3 cup"
+    },
+    {
+     "food": "olive_oil",
+     "g": 9,
+     "measure": "2 tsp"
+    },
+    {
+     "food": "chili_pepper",
+     "g": 5,
+     "measure": "to taste"
+    },
+    {
+     "food": "watermelon",
+     "g": 152,
+     "measure": "1 cup diced"
+    }
+   ],
+   "how": "Simmer tomato, onion and okra into a stew, add shrimp for the last 3 minutes only. Yam and millet on the side."
+  },
+  "L12": {
+   "slot": "lunch",
+   "name": "Lentil, bulgur and feta salad",
+   "style": "mediterranean",
+   "minutes": 10,
+   "batch": "Lentils and bulgur both cook in under 20 minutes and keep 4 days.",
+   "items": [
+    {
+     "food": "lentils",
+     "g": 200,
+     "measure": "1 1/4 cups cooked"
+    },
+    {
+     "food": "bulgur",
+     "g": 200,
+     "measure": "1 cup cooked"
+    },
+    {
+     "food": "feta",
+     "g": 28,
+     "measure": "1 oz"
+    },
+    {
+     "food": "tomatoes",
+     "g": 100,
+     "measure": "1 small"
+    },
+    {
+     "food": "cucumber",
+     "g": 80,
+     "measure": "1/2 cup"
+    },
+    {
+     "food": "basil",
+     "g": 5,
+     "measure": "a handful, torn"
+    },
+    {
+     "food": "olive_oil",
+     "g": 9,
+     "measure": "2 tsp"
+    },
+    {
+     "food": "lemon_juice",
+     "g": 15,
+     "measure": "1 tbsp"
+    },
+    {
+     "food": "kiwi",
+     "g": 180,
+     "measure": "1 cup sliced"
+    },
+    {
+     "food": "walnuts",
+     "g": 15,
+     "measure": "about 7 halves"
+    }
+   ],
+   "how": "Combine cold, dress with oil and lemon, crumble feta over the top."
+  },
+  "S1": {
+   "slot": "snack",
+   "name": "Apple, almonds and cheddar",
+   "style": "simple",
+   "minutes": 2,
+   "items": [
+    {
+     "food": "apple",
+     "g": 180,
+     "measure": "1 medium"
+    },
+    {
+     "food": "almonds",
+     "g": 28,
+     "measure": "1 oz, about 23"
+    },
+    {
+     "food": "cheddar",
+     "g": 15,
+     "measure": "3/4 oz"
+    }
+   ],
+   "how": "Slice and eat."
+  },
+  "S2": {
+   "slot": "snack",
+   "name": "Greek yogurt with strawberries and pumpkin seeds",
+   "style": "simple",
+   "minutes": 2,
+   "items": [
+    {
+     "food": "yogurt_greek_nonfat",
+     "g": 150,
+     "measure": "1 cup"
+    },
+    {
+     "food": "strawberries",
+     "g": 150,
+     "measure": "1 cup halved"
+    },
+    {
+     "food": "pumpkin_seeds",
+     "g": 20,
+     "measure": "2 tbsp"
+    }
+   ],
+   "how": "Spoon, top, done. No honey needed — the fruit is the sweetener."
+  },
+  "S3": {
+   "slot": "snack",
+   "name": "Eggs, carrots, chickpea dip and kefir",
+   "style": "simple",
+   "minutes": 3,
+   "items": [
+    {
+     "food": "egg",
+     "g": 100,
+     "measure": "2 hard-boiled eggs"
+    },
+    {
+     "food": "carrots",
+     "g": 120,
+     "measure": "1 cup sticks"
+    },
+    {
+     "food": "chickpeas",
+     "g": 80,
+     "measure": "1/2 cup, mashed with lemon"
+    },
+    {
+     "food": "orange",
+     "g": 140,
+     "measure": "1 large"
+    }
+   ],
+   "how": "Dip and go. The kefir is a fermented food — the guidelines call those out for the microbiome."
+  },
+  "S4": {
+   "slot": "snack",
+   "name": "Kefir, banana and peanut butter",
+   "style": "simple",
+   "minutes": 2,
+   "items": [
+    {
+     "food": "banana",
+     "g": 100,
+     "measure": "1 small"
+    },
+    {
+     "food": "peanut_butter",
+     "g": 16,
+     "measure": "1 tbsp"
+    },
+    {
+     "food": "flaxseed",
+     "g": 12,
+     "measure": "1 1/2 tbsp ground"
+    },
+    {
+     "food": "yogurt_greek_nonfat",
+     "g": 150,
+     "measure": "3/4 cup"
+    }
+   ],
+   "how": "Blend it or just eat the parts side by side."
+  },
+  "S5": {
+   "slot": "snack",
+   "name": "Cottage cheese with papaya and flaxseed",
+   "style": "simple",
+   "minutes": 2,
+   "items": [
+    {
+     "food": "cottage_cheese",
+     "g": 150,
+     "measure": "3/4 cup"
+    },
+    {
+     "food": "papaya",
+     "g": 150,
+     "measure": "1 cup cubes"
+    },
+    {
+     "food": "flaxseed",
+     "g": 12,
+     "measure": "1 1/2 tbsp ground"
+    },
+    {
+     "food": "pumpkin_seeds",
+     "g": 15,
+     "measure": "1 1/2 tbsp"
+    }
+   ],
+   "how": "Ground flaxseed only — whole seeds pass through undigested."
+  },
+  "S6": {
+   "slot": "snack",
+   "name": "Roasted groundnuts, orange and yogurt",
+   "style": "west-african",
+   "minutes": 1,
+   "items": [
+    {
+     "food": "peanuts",
+     "g": 40,
+     "measure": "1/3 cup"
+    },
+    {
+     "food": "orange",
+     "g": 140,
+     "measure": "1 large"
+    },
+    {
+     "food": "yogurt_greek_nonfat",
+     "g": 130,
+     "measure": "3/4 cup"
+    }
+   ],
+   "how": "The portable option — carry the nuts and fruit, yogurt at home."
+  },
+  "S7": {
+   "slot": "snack",
+   "name": "Tuna and avocado toast with an apple",
+   "style": "simple",
+   "minutes": 5,
+   "items": [
+    {
+     "food": "tuna_canned",
+     "g": 60,
+     "measure": "1/2 can, drained"
+    },
+    {
+     "food": "ww_bread",
+     "g": 32,
+     "measure": "1 slice"
+    },
+    {
+     "food": "avocado",
+     "g": 70,
+     "measure": "1/3 avocado"
+    },
+    {
+     "food": "tomatoes",
+     "g": 50,
+     "measure": "a few slices"
+    },
+    {
+     "food": "apple",
+     "g": 150,
+     "measure": "1 small"
+    },
+    {
+     "food": "yogurt_greek_nonfat",
+     "g": 120,
+     "measure": "3/4 cup"
+    }
+   ],
+   "how": "Mash avocado onto the toast, pile the tuna on, black pepper and lemon."
+  },
+  "S8": {
+   "slot": "snack",
+   "name": "Edamame, mango and yogurt",
+   "style": "simple",
+   "minutes": 5,
+   "items": [
+    {
+     "food": "edamame",
+     "g": 120,
+     "measure": "1 cup cooked"
+    },
+    {
+     "food": "mango",
+     "g": 165,
+     "measure": "1 cup pieces"
+    },
+    {
+     "food": "yogurt_greek_nonfat",
+     "g": 130,
+     "measure": "3/4 cup"
+    },
+    {
+     "food": "walnuts",
+     "g": 15,
+     "measure": "about 7 halves"
+    }
+   ],
+   "how": "Boil frozen edamame 4 minutes, salt lightly."
+  },
+  "D1": {
+   "slot": "dinner",
+   "name": "Grilled mackerel with plantain and garden-egg stew",
+   "style": "west-african",
+   "minutes": 30,
+   "items": [
+    {
+     "food": "mackerel",
+     "g": 100,
+     "measure": "4 oz cooked"
+    },
+    {
+     "food": "plantain_boiled",
+     "g": 100,
+     "measure": "3/4 cup boiled"
+    },
+    {
+     "food": "eggplant",
+     "g": 180,
+     "measure": "1 1/2 cups cooked"
+    },
+    {
+     "food": "black_eyed_peas",
+     "g": 110,
+     "measure": "3/4 cup, stewed with the garden eggs"
+    },
+    {
+     "food": "tomatoes",
+     "g": 100,
+     "measure": "1 small"
+    },
+    {
+     "food": "onion",
+     "g": 50,
+     "measure": "1/3 cup"
+    },
+    {
+     "food": "olive_oil",
+     "g": 9,
+     "measure": "2 tsp"
+    },
+    {
+     "food": "chili_pepper",
+     "g": 5,
+     "measure": "to taste"
+    }
+   ],
+   "how": "Grill the mackerel skin-side first. Stew garden eggs with tomato, onion, peas and chilli until collapsed; boil the plantain."
+  },
+  "D2": {
+   "slot": "dinner",
+   "name": "Chicken and vegetable stir-fry with brown rice",
+   "style": "simple",
+   "minutes": 20,
+   "items": [
+    {
+     "food": "chicken_breast",
+     "g": 110,
+     "measure": "5 oz cooked"
+    },
+    {
+     "food": "broccoli",
+     "g": 230,
+     "measure": "2 cups cooked"
+    },
+    {
+     "food": "green_beans",
+     "g": 130,
+     "measure": "2/3 cup cooked"
+    },
+    {
+     "food": "bell_pepper",
+     "g": 80,
+     "measure": "1/2 large"
+    },
+    {
+     "food": "mushrooms",
+     "g": 70,
+     "measure": "1 cup sliced"
+    },
+    {
+     "food": "brown_rice",
+     "g": 160,
+     "measure": "3/4 cup cooked"
+    },
+    {
+     "food": "olive_oil",
+     "g": 9,
+     "measure": "2 tsp"
+    },
+    {
+     "food": "garlic",
+     "g": 6,
+     "measure": "2 cloves"
+    },
+    {
+     "food": "ginger_ground",
+     "g": 2,
+     "measure": "1 tsp"
+    }
+   ],
+   "how": "Hot pan, chicken first, vegetables second, garlic and ginger last so they do not burn."
+  },
+  "D3": {
+   "slot": "dinner",
+   "name": "Salmon with roasted Brussels sprouts and quinoa",
+   "style": "mediterranean",
+   "minutes": 30,
+   "items": [
+    {
+     "food": "salmon",
+     "g": 100,
+     "measure": "5 oz cooked"
+    },
+    {
+     "food": "brussels",
+     "g": 200,
+     "measure": "2 cups"
+    },
+    {
+     "food": "quinoa",
+     "g": 155,
+     "measure": "3/4 cup cooked"
+    },
+    {
+     "food": "white_beans",
+     "g": 100,
+     "measure": "2/3 cup cooked"
+    },
+    {
+     "food": "olive_oil",
+     "g": 9,
+     "measure": "2 tsp"
+    },
+    {
+     "food": "lemon_juice",
+     "g": 15,
+     "measure": "1 tbsp"
+    }
+   ],
+   "how": "Sprouts halved, oiled, 200 °C for 20 minutes; salmon in for the last 12. Beans warmed through with the quinoa."
+  },
+  "D4": {
+   "slot": "dinner",
+   "name": "Beef and vegetable stew with millet",
+   "style": "west-african",
+   "minutes": 35,
+   "items": [
+    {
+     "food": "beef_93",
+     "g": 120,
+     "measure": "5 oz cooked"
+    },
+    {
+     "food": "green_beans",
+     "g": 150,
+     "measure": "1 cup cooked"
+    },
+    {
+     "food": "carrots",
+     "g": 80,
+     "measure": "2/3 cup"
+    },
+    {
+     "food": "kidney_beans",
+     "g": 100,
+     "measure": "2/3 cup cooked"
+    },
+    {
+     "food": "tomato_paste",
+     "g": 30,
+     "measure": "2 tbsp"
+    },
+    {
+     "food": "onion",
+     "g": 60,
+     "measure": "1/2 medium"
+    },
+    {
+     "food": "millet",
+     "g": 140,
+     "measure": "3/4 cup cooked"
+    },
+    {
+     "food": "olive_oil",
+     "g": 9,
+     "measure": "2 tsp"
+    }
+   ],
+   "how": "Brown the beef, build the tomato base, add vegetables, beans and a cup of water, simmer 20 minutes."
+  },
+  "D5": {
+   "slot": "dinner",
+   "name": "Tilapia pepper soup with yam",
+   "style": "west-african",
+   "minutes": 25,
+   "items": [
+    {
+     "food": "tilapia",
+     "g": 100,
+     "measure": "5 oz cooked"
+    },
+    {
+     "food": "yam",
+     "g": 200,
+     "measure": "1 1/4 cups boiled"
+    },
+    {
+     "food": "tomatoes",
+     "g": 120,
+     "measure": "1 medium"
+    },
+    {
+     "food": "onion",
+     "g": 50,
+     "measure": "1/3 cup"
+    },
+    {
+     "food": "okra",
+     "g": 150,
+     "measure": "1 cup cooked"
+    },
+    {
+     "food": "black_eyed_peas",
+     "g": 100,
+     "measure": "1/2 cup cooked"
+    },
+    {
+     "food": "olive_oil",
+     "g": 9,
+     "measure": "2 tsp"
+    },
+    {
+     "food": "ginger_ground",
+     "g": 2,
+     "measure": "1 tsp"
+    },
+    {
+     "food": "chili_pepper",
+     "g": 5,
+     "measure": "to taste"
+    }
+   ],
+   "how": "Build a light broth with tomato, onion, ginger and chilli; poach the fish in it for 8 minutes. Yam on the side."
+  },
+  "D6": {
+   "slot": "dinner",
+   "name": "Whole-wheat pasta with turkey, beans and tomato",
+   "style": "mediterranean",
+   "minutes": 25,
+   "items": [
+    {
+     "food": "turkey_breast",
+     "g": 90,
+     "measure": "4 oz cooked, shredded"
+    },
+    {
+     "food": "ww_pasta",
+     "g": 130,
+     "measure": "3/4 cup cooked"
+    },
+    {
+     "food": "white_beans",
+     "g": 120,
+     "measure": "2/3 cup cooked"
+    },
+    {
+     "food": "tomatoes",
+     "g": 150,
+     "measure": "1 large"
+    },
+    {
+     "food": "tomato_paste",
+     "g": 30,
+     "measure": "2 tbsp"
+    },
+    {
+     "food": "mushrooms",
+     "g": 70,
+     "measure": "1 cup"
+    },
+    {
+     "food": "feta",
+     "g": 15,
+     "measure": "1/2 oz"
+    },
+    {
+     "food": "olive_oil",
+     "g": 9,
+     "measure": "2 tsp"
+    },
+    {
+     "food": "basil",
+     "g": 5,
+     "measure": "a handful"
+    }
+   ],
+   "how": "Sauce from fresh tomato plus paste; fold in turkey, beans and mushrooms, finish with basil and feta."
+  },
+  "D7": {
+   "slot": "dinner",
+   "name": "Chickpea, tofu and spinach curry with brown rice",
+   "style": "simple",
+   "minutes": 25,
+   "items": [
+    {
+     "food": "chickpeas",
+     "g": 150,
+     "measure": "1 1/4 cups cooked"
+    },
+    {
+     "food": "tofu_firm",
+     "g": 100,
+     "measure": "5 oz, cubed"
+    },
+    {
+     "food": "spinach_cooked",
+     "g": 150,
+     "measure": "3/4 cup cooked"
+    },
+    {
+     "food": "coconut_milk",
+     "g": 25,
+     "measure": "2 1/2 tbsp"
+    },
+    {
+     "food": "tomato_paste",
+     "g": 30,
+     "measure": "2 tbsp"
+    },
+    {
+     "food": "onion",
+     "g": 60,
+     "measure": "1/2 medium"
+    },
+    {
+     "food": "brown_rice",
+     "g": 120,
+     "measure": "3/4 cup cooked"
+    },
+    {
+     "food": "turmeric",
+     "g": 3,
+     "measure": "1 tsp"
+    },
+    {
+     "food": "olive_oil",
+     "g": 4.5,
+     "measure": "1 tsp"
+    }
+   ],
+   "how": "Onion, turmeric, tomato paste, coconut milk, chickpeas and tofu, then spinach at the end."
+  },
+  "D8": {
+   "slot": "dinner",
+   "name": "Pork tenderloin with sweet potato, quinoa and collards",
+   "style": "simple",
+   "minutes": 30,
+   "items": [
+    {
+     "food": "pork_tenderloin",
+     "g": 120,
+     "measure": "5 oz cooked"
+    },
+    {
+     "food": "sweet_potato",
+     "g": 180,
+     "measure": "1 cup baked"
+    },
+    {
+     "food": "quinoa",
+     "g": 120,
+     "measure": "1/2 cup cooked"
+    },
+    {
+     "food": "collards",
+     "g": 150,
+     "measure": "1 cup cooked"
+    },
+    {
+     "food": "olive_oil",
+     "g": 9,
+     "measure": "2 tsp"
+    },
+    {
+     "food": "garlic",
+     "g": 6,
+     "measure": "2 cloves"
+    }
+   ],
+   "how": "Sear the tenderloin, finish in the oven to 63 °C, rest 5 minutes. Collards with garlic in the pan drippings."
+  },
+  "D9": {
+   "slot": "dinner",
+   "name": "Shrimp and cabbage stir-fry with millet",
+   "style": "west-african",
+   "minutes": 20,
+   "items": [
+    {
+     "food": "shrimp",
+     "g": 110,
+     "measure": "6 oz cooked"
+    },
+    {
+     "food": "cabbage",
+     "g": 180,
+     "measure": "1 1/4 cups cooked"
+    },
+    {
+     "food": "carrots",
+     "g": 80,
+     "measure": "2/3 cup"
+    },
+    {
+     "food": "peas_green",
+     "g": 130,
+     "measure": "2/3 cup cooked"
+    },
+    {
+     "food": "millet",
+     "g": 140,
+     "measure": "3/4 cup cooked"
+    },
+    {
+     "food": "olive_oil",
+     "g": 9,
+     "measure": "2 tsp"
+    },
+    {
+     "food": "garlic",
+     "g": 6,
+     "measure": "2 cloves"
+    }
+   ],
+   "how": "Shrimp cook in 3 minutes — add them last or they turn to rubber."
+  },
+  "D10": {
+   "slot": "dinner",
+   "name": "Red-red: black-eyed pea stew with baked plantain",
+   "style": "west-african",
+   "minutes": 35,
+   "items": [
+    {
+     "food": "black_eyed_peas",
+     "g": 230,
+     "measure": "1 1/4 cups cooked"
+    },
+    {
+     "food": "plantain_baked",
+     "g": 150,
+     "measure": "1 cup baked"
+    },
+    {
+     "food": "brown_rice",
+     "g": 100,
+     "measure": "1/2 cup cooked"
+    },
+    {
+     "food": "tomato_paste",
+     "g": 40,
+     "measure": "2 1/2 tbsp"
+    },
+    {
+     "food": "onion",
+     "g": 60,
+     "measure": "1/2 medium"
+    },
+    {
+     "food": "bell_pepper",
+     "g": 80,
+     "measure": "1/2 large"
+    },
+    {
+     "food": "egg",
+     "g": 50,
+     "measure": "1 boiled egg"
+    },
+    {
+     "food": "olive_oil",
+     "g": 9,
+     "measure": "2 tsp"
+    }
+   ],
+   "how": "Bake the plantain instead of frying it — same sweetness, a fraction of the fat. Stew the peas in the tomato base until thick."
+  },
+  "D11": {
+   "slot": "dinner",
+   "name": "Sirloin and bulgur salad bowl",
+   "style": "mediterranean",
+   "minutes": 20,
+   "items": [
+    {
+     "food": "sirloin",
+     "g": 100,
+     "measure": "4 oz cooked"
+    },
+    {
+     "food": "bulgur",
+     "g": 150,
+     "measure": "1 cup cooked"
+    },
+    {
+     "food": "chickpeas",
+     "g": 80,
+     "measure": "2/3 cup cooked"
+    },
+    {
+     "food": "romaine",
+     "g": 90,
+     "measure": "2 cups"
+    },
+    {
+     "food": "tomatoes",
+     "g": 100,
+     "measure": "1 small"
+    },
+    {
+     "food": "cucumber",
+     "g": 80,
+     "measure": "1/2 cup"
+    },
+    {
+     "food": "olives",
+     "g": 20,
+     "measure": "5 olives"
+    },
+    {
+     "food": "feta",
+     "g": 20,
+     "measure": "3/4 oz"
+    },
+    {
+     "food": "olive_oil",
+     "g": 9,
+     "measure": "2 tsp"
+    }
+   ],
+   "how": "Steak rested and sliced thin across the grain, over cold bulgur, chickpeas and greens."
+  },
+  "D12": {
+   "slot": "dinner",
+   "name": "Sardine and tomato bake with beans, greens and toast",
+   "style": "mediterranean",
+   "minutes": 20,
+   "items": [
+    {
+     "food": "sardines",
+     "g": 90,
+     "measure": "1 tin, drained"
+    },
+    {
+     "food": "white_beans",
+     "g": 130,
+     "measure": "3/4 cup cooked"
+    },
+    {
+     "food": "tomatoes",
+     "g": 150,
+     "measure": "1 large"
+    },
+    {
+     "food": "onion",
+     "g": 50,
+     "measure": "1/3 cup"
+    },
+    {
+     "food": "kale_cooked",
+     "g": 130,
+     "measure": "1 cup cooked"
+    },
+    {
+     "food": "ww_bread",
+     "g": 32,
+     "measure": "1 slice"
+    },
+    {
+     "food": "olive_oil",
+     "g": 9,
+     "measure": "2 tsp"
+    }
+   ],
+   "how": "Sardines with the soft bones in — that is where the calcium is. Bake with tomato, onion and beans for 12 minutes, serve on toast with garlicky kale."
+  }
+ }
+}

@@ -1,0 +1,406 @@
+{
+ "calorieLevel": 2000,
+ "pattern": {
+  "source": "dgaServings",
+  "note": "Food-group targets for the 2,000-calorie pattern in the Dietary Guidelines for Americans, 2025-2030.",
+  "targets": {
+   "protein": [
+    3,
+    4
+   ],
+   "dairy": [
+    3,
+    3
+   ],
+   "vegetable": [
+    3,
+    3
+   ],
+   "fruit": [
+    2,
+    2
+   ],
+   "grain": [
+    2,
+    4
+   ],
+   "fat": [
+    4.5,
+    4.5
+   ]
+  }
+ },
+ "fasting": {
+  "protocol": "16:8 time-restricted eating",
+  "eatFrom": "12:00",
+  "eatTo": "20:00",
+  "fastHours": 16,
+  "allowedWhileFasting": [
+   "Plain water, still or sparkling",
+   "Black coffee, no sugar, no milk, no sweetener",
+   "Plain tea — green, black or herbal, unsweetened",
+   "Electrolytes without sugar if you are sweating heavily"
+  ],
+  "stopIf": [
+   "Light-headedness or dizziness that does not pass",
+   "Headaches or mood swings that persist past the first two weeks",
+   "You start thinking about food in a way that feels compulsive"
+  ],
+  "medicalNote": "Time-restricted eating is well studied for weight and metabolic markers over the short term, and the longer trials are mixed. Talk to a clinician before continuing if you take any medication, especially anything for blood sugar or blood pressure. Anyone with a history of disordered eating should not use fasting windows.",
+  "sources": [
+   "hopkinsIf",
+   "mayoIf",
+   "nihTre"
+  ]
+ },
+ "drinks": {
+  "note": "Times assume a 06:45 wake and a 22:30 bed. Shift the whole schedule if your day shifts. Nothing here is sweetened — the Dietary Guidelines are explicit that water and unsweetened drinks are the default.",
+  "caffeineCapMg": 400,
+  "caffeineCutoff": "14:00",
+  "cutoffReason": "CDC advises no caffeine for 5 or more hours before bed. A 22:30 bed makes 17:30 the hard limit; 14:00 leaves margin if you are sensitive.",
+  "schedule": [
+   {
+    "time": "06:45",
+    "item": "water",
+    "ml": 500,
+    "label": "500 ml water on waking",
+    "why": "You wake mildly dehydrated after 8 hours without fluid. Front-loading water also blunts early hunger during the fast.",
+    "fastSafe": true
+   },
+   {
+    "time": "07:30",
+    "item": "coffee",
+    "ml": 240,
+    "label": "1 cup black coffee",
+    "why": "Plain brewed coffee is about 2 kcal a cup and does not break the fast in any practical sense. Roughly 95 mg caffeine.",
+    "fastSafe": true
+   },
+   {
+    "time": "09:30",
+    "item": "water",
+    "ml": 500,
+    "label": "500 ml water",
+    "why": "Keeps you ahead of the 3 L/day fluid target before the eating window even opens.",
+    "fastSafe": true
+   },
+   {
+    "time": "11:00",
+    "item": "green_tea",
+    "ml": 240,
+    "label": "1 cup green tea",
+    "why": "About 28 mg caffeine. NIH's NCCIH reports modest effects on body weight and LDL cholesterol — modest, not magic — and no safety concerns for adults drinking it as a beverage.",
+    "fastSafe": true
+   },
+   {
+    "time": "12:00",
+    "item": "water",
+    "ml": 240,
+    "label": "1 cup water with your first meal",
+    "why": "Fluid with meals aids satiety and digestion.",
+    "fastSafe": false
+   },
+   {
+    "time": "13:30",
+    "item": "green_tea",
+    "ml": 240,
+    "label": "1 cup green or black tea — last caffeine of the day",
+    "why": "Caffeine has a half-life of hours. This is your cutoff so it is cleared well before bed.",
+    "fastSafe": false
+   },
+   {
+    "time": "15:30",
+    "item": "water",
+    "ml": 500,
+    "label": "500 ml water with your snack",
+    "why": "Pair fluid with the mid-afternoon snack so you are not drinking it all in the evening.",
+    "fastSafe": false
+   },
+   {
+    "time": "17:30",
+    "item": "water",
+    "ml": 500,
+    "label": "500 ml water",
+    "why": "Pre-workout or pre-dinner. If you trained hard and sweated, add 500 ml more.",
+    "fastSafe": false
+   },
+   {
+    "time": "18:45",
+    "item": "water",
+    "ml": 240,
+    "label": "1 cup water with dinner",
+    "why": "Last big fluid of the day — earlier is better for uninterrupted sleep.",
+    "fastSafe": false
+   },
+   {
+    "time": "21:30",
+    "item": "chamomile_tea",
+    "ml": 240,
+    "label": "1 cup caffeine-free herbal tea",
+    "why": "A warm, caffeine-free drink is a workable bedtime cue. Chamomile, rooibos, ginger or mint — all fine, all unsweetened.",
+    "fastSafe": false
+   }
+  ],
+  "avoid": [
+   "Sugar-sweetened drinks — soda, fruit drinks, energy drinks, sweetened iced tea. The Dietary Guidelines say avoid them outright.",
+   "Low-calorie and non-nutritive sweeteners (aspartame, sucralose, saccharin, acesulfame K) — the 2025–2030 guidelines advise limiting these too.",
+   "Fruit juice as a routine drink. If you have it, keep the portion small or dilute it with water.",
+   "Alcohol on training days and within 3 hours of bed. The guidance is simply: less is better for overall health."
+  ]
+ },
+ "dailyExtras": {
+  "note": "Counted into every day's totals: the milk that goes into your post-noon coffee or tea, plus the cooking salt, so the sodium figure is honest rather than flattering.",
+  "items": [
+   {
+    "food": "milk_whole",
+    "g": 244,
+    "measure": "1 cup, split across the two afternoon drinks"
+   },
+   {
+    "food": "kefir",
+    "g": 200,
+    "measure": "generous 3/4 cup with dinner - a fermented food for the microbiome"
+   },
+   {
+    "food": "salt",
+    "g": 2,
+    "measure": "about 1/3 tsp total across the day's cooking"
+   }
+  ]
+ },
+ "weeks": [
+  {
+   "week": 1,
+   "theme": "Establish the window. Same three eating times every day.",
+   "days": [
+    {
+     "day": "Monday",
+     "lunch": "L1",
+     "snack": "S1",
+     "dinner": "D2"
+    },
+    {
+     "day": "Tuesday",
+     "lunch": "L2",
+     "snack": "S2",
+     "dinner": "D5"
+    },
+    {
+     "day": "Wednesday",
+     "lunch": "L3",
+     "snack": "S3",
+     "dinner": "D3"
+    },
+    {
+     "day": "Thursday",
+     "lunch": "L4",
+     "snack": "S4",
+     "dinner": "D7"
+    },
+    {
+     "day": "Friday",
+     "lunch": "L5",
+     "snack": "S7",
+     "dinner": "D12"
+    },
+    {
+     "day": "Saturday",
+     "lunch": "L2",
+     "snack": "S2",
+     "dinner": "D3"
+    },
+    {
+     "day": "Sunday",
+     "lunch": "L9",
+     "snack": "S6",
+     "dinner": "D10"
+    }
+   ]
+  },
+  {
+   "week": 2,
+   "theme": "Add the red-meat and stew rotation. Cook once, eat twice.",
+   "days": [
+    {
+     "day": "Monday",
+     "lunch": "L6",
+     "snack": "S1",
+     "dinner": "D4"
+    },
+    {
+     "day": "Tuesday",
+     "lunch": "L7",
+     "snack": "S5",
+     "dinner": "D6"
+    },
+    {
+     "day": "Wednesday",
+     "lunch": "L10",
+     "snack": "S3",
+     "dinner": "D9"
+    },
+    {
+     "day": "Thursday",
+     "lunch": "L11",
+     "snack": "S8",
+     "dinner": "D1"
+    },
+    {
+     "day": "Friday",
+     "lunch": "L12",
+     "snack": "S4",
+     "dinner": "D8"
+    },
+    {
+     "day": "Saturday",
+     "lunch": "L10",
+     "snack": "S2",
+     "dinner": "D11"
+    },
+    {
+     "day": "Sunday",
+     "lunch": "L1",
+     "snack": "S6",
+     "dinner": "D5"
+    }
+   ]
+  },
+  {
+   "week": 3,
+   "theme": "Heaviest seafood week — two oily-fish days for omega-3s.",
+   "days": [
+    {
+     "day": "Monday",
+     "lunch": "L2",
+     "snack": "S2",
+     "dinner": "D3"
+    },
+    {
+     "day": "Tuesday",
+     "lunch": "L4",
+     "snack": "S1",
+     "dinner": "D6"
+    },
+    {
+     "day": "Wednesday",
+     "lunch": "L8",
+     "snack": "S3",
+     "dinner": "D2"
+    },
+    {
+     "day": "Thursday",
+     "lunch": "L5",
+     "snack": "S4",
+     "dinner": "D7"
+    },
+    {
+     "day": "Friday",
+     "lunch": "L3",
+     "snack": "S7",
+     "dinner": "D12"
+    },
+    {
+     "day": "Saturday",
+     "lunch": "L11",
+     "snack": "S8",
+     "dinner": "D9"
+    },
+    {
+     "day": "Sunday",
+     "lunch": "L9",
+     "snack": "S6",
+     "dinner": "D10"
+    }
+   ]
+  },
+  {
+   "week": 4,
+   "theme": "Highest-fibre week. Legumes at five of seven lunches or dinners.",
+   "days": [
+    {
+     "day": "Monday",
+     "lunch": "L6",
+     "snack": "S1",
+     "dinner": "D4"
+    },
+    {
+     "day": "Tuesday",
+     "lunch": "L12",
+     "snack": "S2",
+     "dinner": "D8"
+    },
+    {
+     "day": "Wednesday",
+     "lunch": "L7",
+     "snack": "S3",
+     "dinner": "D5"
+    },
+    {
+     "day": "Thursday",
+     "lunch": "L10",
+     "snack": "S4",
+     "dinner": "D1"
+    },
+    {
+     "day": "Friday",
+     "lunch": "L1",
+     "snack": "S6",
+     "dinner": "D11"
+    },
+    {
+     "day": "Saturday",
+     "lunch": "L8",
+     "snack": "S8",
+     "dinner": "D2"
+    },
+    {
+     "day": "Sunday",
+     "lunch": "L4",
+     "snack": "S5",
+     "dinner": "D6"
+    }
+   ]
+  }
+ ],
+ "shoppingNotes": [
+  "Buy the fish and meat for the week frozen unless you will cook it in 48 hours. Frozen fish is filleted and frozen at sea and is usually fresher than the chilled counter.",
+  "Frozen vegetables count. The Dietary Guidelines put frozen, dried and canned produce on the same footing as fresh, as long as there is little or no added sugar or salt.",
+  "Canned beans are fine — rinse them and you drop a large share of the added sodium. Dried beans cooked in a big batch are cheaper still.",
+  "Buy the plain versions: plain yogurt, unsalted nuts, no-salt-added tomato paste, unsweetened everything. Flavour goes in at home with chilli, garlic, ginger, herbs and a measured amount of salt.",
+  "Check the 'per 100 g' column, not the front of the pack. Anything whose ingredient list runs past a line or two is usually the ultra-processed option."
+ ],
+ "trims": {
+  "note": "The printed menus follow the 2,000-calorie pattern in the Dietary Guidelines. If your personal target is lower on a given day - or the scale has stalled - take the gap out of these, in this order. Each one keeps the protein and fibre intact.",
+  "items": [
+   {
+    "label": "Skip the nuts or seeds in the afternoon snack",
+    "food": "almonds",
+    "g": 28
+   },
+   {
+    "label": "Halve the grain portion at dinner",
+    "food": "millet",
+    "g": 85
+   },
+   {
+    "label": "Skip the daily kefir (keep the milk)",
+    "food": "kefir",
+    "g": 200
+   },
+   {
+    "label": "Cook with 1 tsp less olive oil",
+    "food": "olive_oil",
+    "g": 4.5
+   },
+   {
+    "label": "Drop the bread from the lunch that has it",
+    "food": "ww_bread",
+    "g": 32
+   },
+   {
+    "label": "Halve the avocado",
+    "food": "avocado",
+    "g": 35
+   }
+  ]
+ }
+}

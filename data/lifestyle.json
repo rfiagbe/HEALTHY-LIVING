@@ -1,0 +1,104 @@
+{
+ "hydration": {
+  "totalWaterMl": 3700,
+  "fromDrinksMl": 3000,
+  "note": "The National Academies set the Adequate Intake for total water at 3.7 L/day for men aged 19–30, with about 3.0 L (13 cups) coming from drinks and the rest from food. It is an intake level, not a minimum you must hit — thirst is a good guide for most healthy people, and heat or heavy sweating raises the need.",
+  "source": "nasemWater",
+  "cues": [
+   "Front-load: 1 L before noon while you are fasting anyway.",
+   "Pale straw urine is the practical check. Dark yellow means catch up.",
+   "Add 500 ml for every sweaty training session.",
+   "Count tea and coffee — they contribute to fluid intake."
+  ]
+ },
+ "sleep": {
+  "targetHours": [7, 9],
+  "floorHours": 7,
+  "note": "The AASM and Sleep Research Society consensus is 7 or more hours a night for adults; 6 or fewer is not enough to sustain health. There is no upper limit in the recommendation.",
+  "sources": ["aasmSleep", "cdcSleep"],
+  "routine": [
+   {"time": "14:00", "do": "Last caffeine of the day", "why": "CDC advises no caffeine within 5 hours of bed, more if you are sensitive. This leaves a wide margin."},
+   {"time": "20:00", "do": "Eating window closes", "why": "Large meals close to bed disrupt sleep, and it is the same clock that anchors your 16:8 window."},
+   {"time": "21:30", "do": "Caffeine-free herbal tea, lights down, screens off if you can", "why": "A consistent wind-down cue matters more than any single tactic."},
+   {"time": "22:30", "do": "Lights out — same time every night, weekends included", "why": "CDC puts a consistent schedule first among sleep habits, because it is what actually regulates the body clock."},
+   {"time": "06:30", "do": "Same wake time, daylight within 30 minutes", "why": "A fixed wake time is the anchor that makes the fixed bedtime possible."}
+  ],
+  "environment": [
+   "Dark: blackout curtains or an eye mask.",
+   "Cool and quiet; earplugs or a fan if the street is loud.",
+   "No alcohol before bed — it fragments the second half of the night.",
+   "If you are awake more than 20 minutes, get up and do something dull in dim light rather than lying there."
+  ]
+ },
+ "habits": [
+  {"id": "window", "label": "Ate only inside the 12:00–20:00 window", "group": "Fasting"},
+  {"id": "protein", "label": "Hit the protein target", "group": "Nutrition"},
+  {"id": "veg", "label": "3 servings of vegetables", "group": "Nutrition"},
+  {"id": "fruit", "label": "2 servings of fruit", "group": "Nutrition"},
+  {"id": "water", "label": "3 L of fluid", "group": "Hydration"},
+  {"id": "nosugar", "label": "No sugar-sweetened drinks, no ultra-processed snacks", "group": "Nutrition"},
+  {"id": "move", "label": "Completed today's training session", "group": "Activity"},
+  {"id": "steps", "label": "Got a deliberate walk in", "group": "Activity"},
+  {"id": "sleep", "label": "7+ hours of sleep", "group": "Sleep"},
+  {"id": "caffeine", "label": "No caffeine after 14:00", "group": "Sleep"},
+  {"id": "alcohol", "label": "No alcohol", "group": "Other"},
+  {"id": "nicotine", "label": "No nicotine of any kind", "group": "Other"},
+  {"id": "weigh", "label": "Weighed in this morning", "group": "Tracking"}
+ ],
+ "longevity": {
+  "framework": "The eight things the American Heart Association's Life's Essential 8 identifies as the drivers of cardiovascular health — which is also the best-evidenced proxy we have for healthspan. Each one is scored here against its own published target rather than AHA's 0–100 point algorithm.",
+  "source": "le8",
+  "components": [
+   {"id": "diet", "label": "Diet", "target": "Follow the Dietary Guidelines pattern: 3 vegetable servings, 2 fruit, 2–4 whole grains, 3 dairy, 1.2–1.6 g/kg protein, minimal ultra-processed food", "metric": "plan adherence", "source": "dga2025"},
+   {"id": "activity", "label": "Physical activity", "target": "150–300 minutes a week of moderate aerobic activity plus 2+ strength days", "metric": "weekly minutes", "source": "pag2"},
+   {"id": "nicotine", "label": "Nicotine exposure", "target": "None — including vaping and second-hand smoke", "metric": "yes/no", "source": "le8"},
+   {"id": "sleep", "label": "Sleep", "target": "7–9 hours a night", "metric": "average hours", "source": "aasmSleep"},
+   {"id": "bmi", "label": "Body mass index", "target": "18.5–24.9", "metric": "kg/m²", "source": "cdcBmi"},
+   {"id": "lipids", "label": "Blood lipids", "target": "Total cholesterol under 200 mg/dL, LDL under 100, HDL 40 or above, triglycerides under 150", "metric": "lab value", "source": "cdcCholesterol"},
+   {"id": "glucose", "label": "Blood glucose", "target": "Fasting glucose under 100 mg/dL; A1c under 5.7%", "metric": "lab value", "source": "cdcA1c"},
+   {"id": "bp", "label": "Blood pressure", "target": "Under 120/80 mm Hg", "metric": "mm Hg", "source": "cdcBp"}
+  ]
+ },
+ "biomarkers": [
+  {"id": "weight", "label": "Weight", "unit": "lb", "cadence": "Daily, same time each morning"},
+  {"id": "waist", "label": "Waist circumference", "unit": "in", "cadence": "Weekly", "target": "Under 40 in for men — above that raises risk of type 2 diabetes, hypertension and cardiovascular disease even at a normal weight", "source": "nhlbiWeight"},
+  {"id": "restingHr", "label": "Resting heart rate", "unit": "bpm", "cadence": "Daily on waking", "target": "Watch the trend; a falling resting rate over months means the aerobic work is landing"},
+  {"id": "bpSys", "label": "Blood pressure, systolic", "unit": "mm Hg", "cadence": "Weekly", "target": "Under 120", "source": "cdcBp"},
+  {"id": "bpDia", "label": "Blood pressure, diastolic", "unit": "mm Hg", "cadence": "Weekly", "target": "Under 80", "source": "cdcBp"},
+  {"id": "sleepHours", "label": "Sleep", "unit": "h", "cadence": "Daily", "target": "7 or more", "source": "aasmSleep"},
+  {"id": "steps", "label": "Steps", "unit": "steps", "cadence": "Daily", "target": "No official guideline sets a step count — this is a personal proxy for the guideline's 150–300 weekly minutes"},
+  {"id": "mileTime", "label": "1-mile time trial", "unit": "min", "cadence": "Every 4 weeks", "target": "Faster than last time", "source": "ahaCrf"},
+  {"id": "totalChol", "label": "Total cholesterol", "unit": "mg/dL", "cadence": "With bloodwork", "target": "Under 200", "source": "cdcCholesterol"},
+  {"id": "ldl", "label": "LDL cholesterol", "unit": "mg/dL", "cadence": "With bloodwork", "target": "Under 100", "source": "cdcCholesterol"},
+  {"id": "hdl", "label": "HDL cholesterol", "unit": "mg/dL", "cadence": "With bloodwork", "target": "40 or above", "source": "cdcCholesterol"},
+  {"id": "triglycerides", "label": "Triglycerides", "unit": "mg/dL", "cadence": "With bloodwork", "target": "Under 150", "source": "cdcCholesterol"},
+  {"id": "glucose", "label": "Fasting glucose", "unit": "mg/dL", "cadence": "With bloodwork", "target": "Under 100; 100–125 is prediabetes", "source": "cdcA1c"},
+  {"id": "a1c", "label": "Hemoglobin A1c", "unit": "%", "cadence": "With bloodwork", "target": "Under 5.7%; 5.7–6.4% is prediabetes", "source": "cdcA1c"},
+  {"id": "vo2max", "label": "VO2 max (from a watch or lab test)", "unit": "mL/kg/min", "cadence": "When you have a reading", "target": "Above 28 for men — below that is the low-fitness band in AHA's scientific statement", "source": "ahaCrf"}
+ ],
+ "screening": [
+  {"what": "Blood pressure", "when": "At least yearly, and any time you can get it checked free", "why": "USPSTF recommends screening every adult 18 and over. High blood pressure has no symptoms.", "source": "uspstfHtn"},
+  {"what": "Prediabetes and type 2 diabetes (fasting glucose or A1c)", "when": "Ask at your next appointment", "why": "USPSTF recommends screening adults aged 35–70 who carry overweight or obesity. You are under 35 but already above the BMI 25 threshold, which is worth raising with a clinician rather than waiting three years.", "source": "uspstfDiabetes"},
+  {"what": "Lipid panel", "when": "Ask at your next appointment, then on your clinician's schedule", "why": "Gives you the LDL, HDL and triglyceride baseline this app tracks against, and it is the one longevity input you cannot estimate at home.", "source": "cdcCholesterol"},
+  {"what": "Dental check-up", "when": "Every 6–12 months", "why": "Cheap, and gum disease tracks with cardiovascular risk."},
+  {"what": "Vision check", "when": "Every 2 years", "why": "Also the earliest place raised blood pressure and blood sugar show up as visible damage."}
+ ],
+ "milestones": {
+  "note": "NHLBI's advice for adults carrying overweight is to aim for 5–10% of starting weight over about six months. At 182.5 lb that is the first two milestones below. The BMI-based targets come after.",
+  "source": "nhlbiWeight",
+  "steps": [
+   {"id": "m5", "label": "5% down — the first clinically meaningful step", "pctLoss": 5},
+   {"id": "m10", "label": "10% down — most of the metabolic benefit shows up here", "pctLoss": 10},
+   {"id": "bmi27", "label": "BMI 27 — halfway out of the overweight band", "bmi": 27},
+   {"id": "bmi25", "label": "BMI 24.9 — inside the healthy-weight range", "bmi": 24.9},
+   {"id": "bmi23", "label": "BMI 23 — comfortably inside it, with room for muscle gain", "bmi": 23}
+  ]
+ },
+ "principles": [
+  "Weight comes off at 1–2 lb a week or it comes back. CDC is blunt about this: gradual and steady is what stays off.",
+  "The fasting window controls when you eat. It does not decide what you eat — that is what the food-group targets are for.",
+  "Protein and fibre are the two levers that make a calorie deficit tolerable. Every meal in this plan carries both.",
+  "Strength training is the part that protects you at 60, not the part that changes the scale at 33. Do not drop it when the weight stalls.",
+  "A stall of two or three weeks is normal. A stall of six weeks means the intake estimate needs revisiting, not that the plan failed."
+ ]
+}

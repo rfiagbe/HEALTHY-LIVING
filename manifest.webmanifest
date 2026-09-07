@@ -1,0 +1,17 @@
+{
+  "name": "Healthy Living — nutrition, fasting, fitness & longevity",
+  "short_name": "Healthy Living",
+  "description": "A personal wellness companion: a 4-week guideline-based menu, bulk shopping lists, a 16:8 fasting window, a 12-week home training programme, and weight, sleep and biomarker tracking.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f6f7f5",
+  "theme_color": "#0f5132",
+  "icons": [
+    { "src": "assets/icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "assets/icons/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "assets/icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" },
+    { "src": "assets/icons/icon.svg", "sizes": "any", "type": "image/svg+xml" }
+  ]
+}

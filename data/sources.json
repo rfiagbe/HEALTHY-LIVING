@@ -1,0 +1,244 @@
+{
+ "retrieved": "2026-09-06",
+ "note": "Every number this app shows about diet, activity, sleep, hydration or risk thresholds traces to one of these sources. Nothing here is invented. Where a source gives a range, the app shows the range.",
+ "sources": {
+  "dga2025": {
+   "title": "Dietary Guidelines for Americans, 2025–2030",
+   "publisher": "U.S. Department of Health and Human Services & U.S. Department of Agriculture",
+   "date": "January 2026",
+   "url": "https://realfood.gov/",
+   "pdf": "https://cdn.realfood.gov/DGA_508.pdf",
+   "usedFor": [
+    "Protein target of 1.2–1.6 g per kg of body weight per day",
+    "Dairy: 3 servings/day at a 2,000-calorie pattern",
+    "Vegetables: 3 servings/day; Fruits: 2 servings/day at a 2,000-calorie pattern",
+    "Whole grains: 2–4 servings/day",
+    "Saturated fat: under 10% of total daily calories",
+    "Added sugars: no amount recommended; no more than 10 g in any one meal",
+    "Sodium: under 2,300 mg/day for ages 14+",
+    "Choose water (still or sparkling) and unsweetened beverages; avoid sugar-sweetened drinks",
+    "Prioritise minimally processed whole foods; avoid ultra-processed foods, artificial dyes and non-nutritive sweeteners",
+    "Fermented foods and high-fibre foods support a diverse gut microbiome"
+   ]
+  },
+  "dgaServings": {
+   "title": "Daily Servings by Calorie Level (Dietary Guidelines for Americans, 2025–2030)",
+   "publisher": "USDA / HHS",
+   "date": "January 2026",
+   "url": "https://cdn.realfood.gov/Daily%20Serving%20Sizes_508.pdf",
+   "usedFor": [
+    "Food-group serving counts for the 1,800 and 2,000 calorie patterns",
+    "Serving-size definitions: 3 oz cooked meat/poultry/seafood, 1 egg, ½ cup beans/peas/lentils, 1 oz nuts or seeds, 2 tbsp nut butter, 3 oz soy = 1 protein serving; 1 cup milk, ¾ cup yogurt, 1 oz cheese = 1 dairy serving; 1 cup raw or cooked vegetables or 2 cups leafy greens = 1 vegetable serving; 1 cup raw fruit or ½ cup dried = 1 fruit serving; ½ cup cooked grain, 1 slice bread or 1 tortilla = 1 whole-grain serving; 1 tsp olive oil or butter = 1 healthy-fat serving"
+   ]
+  },
+  "fdc": {
+   "title": "FoodData Central — SR Legacy (April 2018 release)",
+   "publisher": "USDA Agricultural Research Service",
+   "url": "https://fdc.nal.usda.gov/",
+   "usedFor": [
+    "Every calorie, protein, fat, saturated fat, carbohydrate, fibre, sugar, sodium, potassium, calcium, iron, magnesium and caffeine figure in this app",
+    "Household portion weights (cup, slice, tortilla, tsp) used to convert servings to grams"
+   ],
+   "note": "Each food in data/foods.json carries its USDA FDC ID and the exact USDA description, so any number can be checked at fdc.nal.usda.gov."
+  },
+  "pag2": {
+   "title": "Physical Activity Guidelines for Americans, 2nd edition",
+   "publisher": "U.S. Department of Health and Human Services",
+   "url": "https://odphp.health.gov/sites/default/files/2019-09/Physical_Activity_Guidelines_2nd_edition.pdf",
+   "usedFor": [
+    "150–300 minutes/week of moderate-intensity aerobic activity, or 75–150 minutes vigorous, or an equivalent mix",
+    "Muscle-strengthening activity on 2 or more days per week working all major muscle groups",
+    "Activity can be accumulated in short bouts across the day"
+   ]
+  },
+  "cdcAdultPA": {
+   "title": "Adult Activity: An Overview",
+   "publisher": "Centers for Disease Control and Prevention",
+   "url": "https://www.cdc.gov/physical-activity-basics/guidelines/adults.html",
+   "usedFor": ["Plain-language restatement of the weekly aerobic and strength targets"]
+  },
+  "acsm2026": {
+   "title": "Resistance Training Prescription for Muscle Function, Hypertrophy and Performance — ACSM Position Stand (2026 update)",
+   "publisher": "American College of Sports Medicine",
+   "url": "https://acsm.org/resistance-training-guidelines-update-2026/",
+   "usedFor": [
+    "Train all major muscle groups at least twice per week",
+    "Strength emphasis: heavier loads around 80% of 1RM for 2–3 sets per exercise",
+    "Hypertrophy emphasis: about 10 sets per muscle group per week",
+    "Bodyweight, bands and home-based routines produce marked gains in strength, size and function — a gym is not required",
+    "Training to failure and complex periodisation are not required for the average healthy adult"
+   ]
+  },
+  "ahaCrf": {
+   "title": "Importance of Assessing Cardiorespiratory Fitness in Clinical Practice: A Case for Fitness as a Clinical Vital Sign (Scientific Statement)",
+   "publisher": "American Heart Association — Circulation, 2016",
+   "url": "https://www.ahajournals.org/doi/10.1161/cir.0000000000000461",
+   "usedFor": [
+    "Cardiorespiratory fitness is a stronger predictor of mortality than smoking, hypertension, high cholesterol or type 2 diabetes",
+    "Low fitness in men is an estimated peak VO2 below 28 mL/kg/min",
+    "Fitness should be estimated at least yearly"
+   ]
+  },
+  "le8": {
+   "title": "Life's Essential 8: Updating and Enhancing the American Heart Association's Construct of Cardiovascular Health (Presidential Advisory)",
+   "publisher": "American Heart Association — Circulation, 2022",
+   "url": "https://www.heart.org/en/healthy-living/healthy-lifestyle/lifes-essential-8",
+   "usedFor": [
+    "The eight components this app tracks for long-term health: diet, physical activity, nicotine exposure, sleep, body mass index, blood lipids (non-HDL cholesterol), blood glucose and blood pressure"
+   ],
+   "note": "This app tracks the eight components against each one's own published target. It does not reproduce AHA's 0–100 point scoring algorithm."
+  },
+  "aasmSleep": {
+   "title": "Seven or more hours of sleep per night: a health necessity for adults (AASM/SRS consensus)",
+   "publisher": "American Academy of Sleep Medicine & Sleep Research Society",
+   "url": "https://aasm.org/seven-or-more-hours-of-sleep-per-night-a-health-necessity-for-adults/",
+   "usedFor": [
+    "Adults should sleep 7 or more hours per night",
+    "Six or fewer hours per night is inadequate to sustain health"
+   ]
+  },
+  "cdcSleep": {
+   "title": "About Sleep / How to Improve Your Sleep",
+   "publisher": "Centers for Disease Control and Prevention",
+   "url": "https://www.cdc.gov/sleep/about/index.html",
+   "usedFor": [
+    "Keep the same bed and wake times, including weekends",
+    "Avoid caffeine for 5 or more hours before bed — more if you are sensitive",
+    "Avoid large meals and alcohol before bed; keep the bedroom dark and quiet"
+   ]
+  },
+  "nasemWater": {
+   "title": "Dietary Reference Intakes for Water, Potassium, Sodium, Chloride, and Sulfate",
+   "publisher": "National Academies of Sciences, Engineering, and Medicine (2005)",
+   "url": "https://www.nationalacademies.org/news/report-sets-dietary-intake-levels-for-water-salt-and-potassium-to-maintain-health-and-reduce-chronic-disease-risk",
+   "usedFor": [
+    "Adequate Intake of total water for men 19–30: 3.7 L/day, of which about 3.0 L (13 cups) comes from drinks",
+    "Thirst is an adequate guide for most healthy people; needs rise with heat and heavy activity"
+   ]
+  },
+  "nasemFiber": {
+   "title": "Dietary Reference Intakes for Energy, Carbohydrate, Fiber, Fat, Fatty Acids, Cholesterol, Protein, and Amino Acids",
+   "publisher": "National Academies of Sciences, Engineering, and Medicine (2005)",
+   "url": "https://nap.nationalacademies.org/read/10490/chapter/2",
+   "usedFor": ["Adequate Intake for total fibre: 38 g/day for men aged 19–50"]
+  },
+  "cdcBmi": {
+   "title": "Adult BMI Categories",
+   "publisher": "Centers for Disease Control and Prevention",
+   "url": "https://www.cdc.gov/bmi/adult-calculator/bmi-categories.html",
+   "usedFor": [
+    "BMI categories: under 18.5 underweight, 18.5–24.9 healthy weight, 25.0–29.9 overweight, 30.0+ obesity",
+    "BMI is a screening measure and should be read alongside other measures"
+   ]
+  },
+  "cdcWeightLoss": {
+   "title": "Steps for Losing Weight",
+   "publisher": "Centers for Disease Control and Prevention",
+   "url": "https://www.cdc.gov/healthy-weight-growth/losing-weight/index.html",
+   "usedFor": [
+    "A gradual pace of about 1 to 2 pounds per week is more likely to stay off",
+    "Healthy weight loss combines eating pattern, activity, sleep and stress management"
+   ]
+  },
+  "cdcBp": {
+   "title": "About High Blood Pressure",
+   "publisher": "Centers for Disease Control and Prevention",
+   "url": "https://www.cdc.gov/high-blood-pressure/about/index.html",
+   "usedFor": [
+    "Normal blood pressure: systolic under 120 and diastolic under 80 mm Hg",
+    "Elevated: systolic 120–129 with diastolic under 80",
+    "High blood pressure: systolic 130 or higher, or diastolic 80 or higher"
+   ]
+  },
+  "cdcCholesterol": {
+   "title": "Cholesterol: What Your Numbers Mean (consumer education sheet)",
+   "publisher": "Centers for Disease Control and Prevention",
+   "url": "https://www.cdc.gov/cholesterol/docs/consumered_cholesterol.pdf",
+   "usedFor": [
+    "Desirable total cholesterol: under 200 mg/dL",
+    "Desirable LDL cholesterol: under 100 mg/dL",
+    "Desirable HDL cholesterol: 40 mg/dL or above",
+    "Desirable triglycerides: under 150 mg/dL"
+   ]
+  },
+  "cdcA1c": {
+   "title": "A1C Test for Diabetes and Prediabetes",
+   "publisher": "Centers for Disease Control and Prevention",
+   "url": "https://www.cdc.gov/diabetes/diabetes-testing/prediabetes-a1c-test.html",
+   "usedFor": [
+    "A1c under 5.7% is normal; 5.7–6.4% is prediabetes; 6.5% or above indicates diabetes",
+    "Fasting plasma glucose 100–125 mg/dL indicates prediabetes"
+   ]
+  },
+  "nhlbiWeight": {
+   "title": "Heart-Healthy Living — Aim for a Healthy Weight",
+   "publisher": "National Heart, Lung, and Blood Institute, NIH",
+   "url": "https://www.nhlbi.nih.gov/health/heart-healthy-living/healthy-weight",
+   "usedFor": [
+    "A waist circumference over 40 inches raises risk of heart disease and type 2 diabetes in men",
+    "For adults with overweight or obesity, aim to lose 5–10% of starting weight over about six months"
+   ]
+  },
+  "uspstfDiabetes": {
+   "title": "Prediabetes and Type 2 Diabetes: Screening",
+   "publisher": "U.S. Preventive Services Task Force",
+   "url": "https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/screening-for-prediabetes-and-type-2-diabetes",
+   "usedFor": [
+    "Screen adults aged 35–70 who have overweight (BMI 25+) or obesity (BMI 30+) for prediabetes and type 2 diabetes"
+   ]
+  },
+  "uspstfHtn": {
+   "title": "Hypertension in Adults: Screening",
+   "publisher": "U.S. Preventive Services Task Force",
+   "url": "https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/hypertension-in-adults-screening",
+   "usedFor": ["Screen adults aged 18 and over for high blood pressure"]
+  },
+  "mayoIf": {
+   "title": "Intermittent fasting: What are the benefits?",
+   "publisher": "Mayo Clinic",
+   "url": "https://www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/expert-answers/intermittent-fasting/faq-20441303",
+   "usedFor": [
+    "Short-term trials show weight loss and metabolic improvement; longer trials (6–12 months) are mixed",
+    "Possible side effects: fatigue, dizziness, headaches, mood changes",
+    "People with diabetes, on medication, or with a history of eating disorders should not start without medical advice"
+   ]
+  },
+  "hopkinsIf": {
+   "title": "Intermittent Fasting: What Is It, and How Does It Work?",
+   "publisher": "Johns Hopkins Medicine",
+   "url": "https://www.hopkinsmedicine.org/health/wellness-and-prevention/intermittent-fasting-what-is-it-and-how-does-it-work",
+   "usedFor": [
+    "Time-restricted eating (for example, an 8-hour daily eating window) is the most common form of intermittent fasting",
+    "Reported effects include weight loss and improved insulin sensitivity"
+   ]
+  },
+  "nihTre": {
+   "title": "Time-restricted eating for metabolic syndrome",
+   "publisher": "National Institutes of Health — NIH Research Matters",
+   "url": "https://www.nih.gov/news-events/nih-research-matters/time-restricted-eating-metabolic-syndrome",
+   "usedFor": ["Clinical-trial evidence on time-restricted eating and metabolic markers"]
+  },
+  "fdaCaffeine": {
+   "title": "Spilling the Beans: How Much Caffeine is Too Much?",
+   "publisher": "U.S. Food and Drug Administration",
+   "url": "https://www.fda.gov/consumers/consumer-updates/spilling-beans-how-much-caffeine-too-much",
+   "usedFor": ["400 mg of caffeine per day is not generally associated with negative effects in most healthy adults"]
+  },
+  "nccihGreenTea": {
+   "title": "Green Tea: Usefulness and Safety",
+   "publisher": "National Center for Complementary and Integrative Health, NIH",
+   "url": "https://www.nccih.nih.gov/health/green-tea",
+   "usedFor": [
+    "No safety concerns reported for green tea drunk as a beverage by adults",
+    "Catechins and caffeine may have a modest effect on body weight; small reductions in total and LDL cholesterol",
+    "Benefits are modest and evidence is mixed — tea is not a treatment"
+   ]
+  },
+  "nccihTea": {
+   "title": "Tea",
+   "publisher": "National Center for Complementary and Integrative Health, NIH",
+   "url": "https://www.nccih.nih.gov/health/tea",
+   "usedFor": ["General safety framing for teas and herbal infusions"]
+  }
+ }
+}

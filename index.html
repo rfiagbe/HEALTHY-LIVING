@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0f5132">
+<meta name="description" content="A personal health, nutrition, fasting, fitness and longevity companion built on the USDA/HHS Dietary Guidelines 2025-2030, the Physical Activity Guidelines and USDA FoodData Central.">
+<title>Healthy Living</title>
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="assets/icons/icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="assets/icons/icon-192.png">
+<link rel="stylesheet" href="assets/css/app.css">
+</head>
+<body>
+<div id="boot" class="boot">
+  <div class="boot-inner">
+    <div class="spinner" aria-hidden="true"></div>
+    <p>Loading your plan…</p>
+    <p class="boot-hint" id="boot-hint"></p>
+  </div>
+</div>
+
+<header class="topbar">
+  <div class="topbar-row">
+    <div>
+      <h1 class="brand">Healthy Living</h1>
+      <p class="topbar-sub" id="topbar-sub"></p>
+    </div>
+    <div class="fast-pill" id="fast-pill" role="status" aria-live="polite"></div>
+  </div>
+</header>
+
+<main id="view" class="view" tabindex="-1"></main>
+
+<nav class="tabbar" id="tabbar" aria-label="Sections">
+  <button class="tab" data-tab="today" aria-current="page"><span class="ti">◉</span><span>Today</span></button>
+  <button class="tab" data-tab="plan"><span class="ti">▤</span><span>Plan</span></button>
+  <button class="tab" data-tab="shop"><span class="ti">▢</span><span>Shop</span></button>
+  <button class="tab" data-tab="train"><span class="ti">▲</span><span>Train</span></button>
+  <button class="tab" data-tab="track"><span class="ti">◔</span><span>Track</span></button>
+  <button class="tab" data-tab="long"><span class="ti">♡</span><span>Longevity</span></button>
+  <button class="tab" data-tab="learn"><span class="ti">✦</span><span>Sources</span></button>
+</nav>
+
+<script type="module" src="assets/js/app.js"></script>
+</body>
+</html>
